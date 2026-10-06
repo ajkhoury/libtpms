@@ -10,13 +10,13 @@
 #include "Platform.h"
 
 // In this sample platform, these are compile time constants, but are not required to be.
-#define MANUFACTURER    "IBM"
-#define VENDOR_STRING_1 "SW  "
-#define VENDOR_STRING_2 " TPM"
+#define MANUFACTURER    "INTC"
+#define VENDOR_STRING_1 "Inte"
+#define VENDOR_STRING_2 "l\0\0\0"
 #define VENDOR_STRING_3 "\0\0\0\0"
 #define VENDOR_STRING_4 "\0\0\0\0"
-#define FIRMWARE_V1     (0x20240125)
-#define FIRMWARE_V2     (0x00120000)
+#define FIRMWARE_V1     (0x012F000C)
+#define FIRMWARE_V2     (0x00000000)
 #define MAX_SVN         255
 
 #if SIMULATION	// libtpms added
